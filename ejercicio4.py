@@ -52,4 +52,4 @@ while True:
     resultado = dict.get(menu, lambda: "Opcion incorrecta")()
     print(f"Resultado: {resultado}")
 
-
+print("Hola")
