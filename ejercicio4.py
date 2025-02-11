@@ -5,7 +5,10 @@
 import math
 
 while True:
-    print("CALCULADORA")
+    
+    cadena = "CALCULADORA"
+    print(cadena.center (40, "*"))
+
     print("Elija la operacion que desea realizar: ")
     menu = int(input("1. Suma \n2. Resta \n3. Multiplicacion \n4. Division \n5. Division entera \n6. Exponente \n7. Modulo \n0.Salir\n"))
 
@@ -39,7 +42,6 @@ while True:
         return num1 % num2 if num2 != 0 else "Error: División por cero"
 
 
-
     dict = {
         1 : suma,
         2 : resta,
@@ -51,5 +53,3 @@ while True:
     }        
     resultado = dict.get(menu, lambda: "Opcion incorrecta")()
     print(f"Resultado: {resultado}")
-
-print("Hola")
