@@ -9,3 +9,4 @@ extend() = Amplía la lista original existente, modificándola sin crear una nue
 extend() = numeros.extend(letras) = 1,2,3,a,e,i
 extend() = ------->numeros.extend(range(30, 100, 10)) == 10,20,30,40,50,60,70,80,90
 sum() = suma elementos de una lista entera
+list() = Convertir objetos a listas
