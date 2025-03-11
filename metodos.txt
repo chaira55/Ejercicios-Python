@@ -1,0 +1,11 @@
+apend = agrega al final de la lista
+insert(posicion, argumento)
+pop(posición) = eliminar elemento en posicion asignado
+remove(argumento) = eliminar elemento a buscar
+del = eliminar una lista ------> vocales[2], vocales[0:2], vocales[:](toda la lista)
+sort = organiza la lista ------> numeros.sort(reverse = True) = organiza en descendente
+index() = busca la posicion de un elemento en una lista ------> vocales.index('u', 2, 4) = busca la u en [2:4]
+extend() = Amplía la lista original existente, modificándola sin crear una nueva lista. 
+extend() = numeros.extend(letras) = 1,2,3,a,e,i
+extend() = ------->numeros.extend(range(30, 100, 10)) == 10,20,30,40,50,60,70,80,90
+sum() = suma elementos de una lista entera
